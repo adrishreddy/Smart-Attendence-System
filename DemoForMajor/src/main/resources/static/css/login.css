@@ -1,0 +1,33 @@
+
+body{
+    margin-left: 0px; 
+    margin-right: 0px;
+    margin-top: 0px; 
+    margin-bottom: 0px;
+    background: #ffde59;
+    /* background: url("chrome-untrusted://new-tab-page/custom_background_image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fproxy%2FE-ztrloV3FI6JTNxq8sx5QFMpymWO0J4zfMppzrXWnS0sKncgcEsu0MJOQqcC2f6h3o7JEBg8x43fS2k1DJN31QY7i1w-wQIWxYuX-w99CI%3Dw3840-h2160-p-k-no-nd-mv"); */
+    overflow: hidden;
+}
+hr{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.mb-3
+{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.logtemp
+{
+    background: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+   padding-left: 50px;
+   padding-top: 50px;
+   padding-right: 50px;
+   padding-bottom: 50px;
+   
+}

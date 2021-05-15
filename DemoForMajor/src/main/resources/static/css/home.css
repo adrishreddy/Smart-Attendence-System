@@ -1,0 +1,87 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.navbar {
+    background-repeat: no-repeat;
+    background: #ffde59;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    
+  }
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 15px;
+    padding-left: 23px;
+}
+.nav-item{
+   padding-left: 10px;
+   padding-right: 10px;
+} 
+.logo{
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 30px;
+    }
+.jumbo{
+    background:#ffde59;
+    text-align: center;
+    color: rgb(68, 67, 67);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+#head{
+    box-shadow: 0px 10px 20px #a19d9c    ;  
+
+}
+hr{
+	  border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.button1
+{
+    font-size: 25px;
+    text-align: center;
+}
+.mystudent
+{    background: #ffeda3;
+    
+}
+.details
+{
+    font-size: large;
+}
+.a
+{
+    background: #fff7d5;
+    transition: transform .2s;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.a:hover {
+  -ms-transform: scale(0); /* IE 9 */
+  -webkit-transform: scale(0); /* Safari 3-8 */
+  transform: scale(1.05); 
+  box-shadow: 0 0 11px rgba(49, 49, 49, 0.2);
+}
+.example-print {
+    display: none;
+}
+@media print {
+   .example-screen {
+       display: none;
+    }
+    .example-print {
+       display: block;
+    }
+}
+  
+#piechart
+{
+    transition: transform .2s;
+    padding-left: 125px;
+}
+
+#piechart:hover
+{
+    transform: scale(1.1); 
+}
