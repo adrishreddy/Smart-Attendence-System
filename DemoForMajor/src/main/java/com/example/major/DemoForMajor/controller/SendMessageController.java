@@ -30,8 +30,8 @@ public class SendMessageController {
 	@Autowired
 	private PresentRepository prep;
 	
-	private final static String ACCOUNT_SID = "AC83a4c97db166b1864ea7a25e233f7f80";
-	private final static String AUTH_ID = "d18e4dc31b2b716f178bb21efd117064";
+	private final static String ACCOUNT_SID = "";
+	private final static String AUTH_ID = "";
 	
 	static {
 		Twilio.init(ACCOUNT_SID,AUTH_ID);
